@@ -1,42 +1,73 @@
-body{
-  background-color:#1E1629;
-  
+body {
+  background-color: #140C1F;
+  font-size: 62.5%;
 }
-.header-container{
-  background-image: url(/images/Vector.svg);
-  height: 50vh;
+
+body * {
+  /* border: 1px solid red; */
 }
-.container-navbar{
+
+.header-container {
+  height: 500vh;
+  background-image: url(/images/pic.svg);
+}
+
+.container-navbar {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
   align-items: center;
-  
-  
+  justify-content: space-around;
+  gap: 50%;
 }
-.item{
+
+.item {
   display: flex;
+  justify-content: center;
+  min-width: max-content;
 }
-.navbar{
-  padding: 3vh;
+
+.logo {
+  grid-area: logo;
+}
+
+.navbar {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 100%);
   backdrop-filter: blur(20.8333px);
-  display: flex;
-  flex-wrap: wrap;
+  grid-area: navbar;
+  padding: 3vh;
   gap: 8vh;
-  }
-h1{
+  flex-wrap: wrap;
+  position: fixed;
+}
+
+.info {
+  grid-area: info;
+}
+
+h1 {
   color: white;
 }
-.btn{
+
+.btn {
   color: white;
   border: transparent;
   background: transparent;
-  
-  
 }
-.btnwallet{
+
+.sectionBtn {
+  padding-right: 5vh;
+}
+
+.btnwallet {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 16px;
+  gap: 10px;
   color: white;
+  width: 160px;
+  height: 43px;
   border: transparent;
-  background: transparent;
+  background: #AD1AAF;
 }
