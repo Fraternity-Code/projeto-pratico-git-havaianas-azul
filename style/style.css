@@ -1,0 +1,42 @@
+body{
+  background-color:#1E1629;
+  
+}
+.header-container{
+  background-image: url(/images/Vector.svg);
+  height: 50vh;
+}
+.container-navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  
+  
+}
+.item{
+  display: flex;
+}
+.navbar{
+  padding: 3vh;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 100%);
+  backdrop-filter: blur(20.8333px);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8vh;
+  }
+h1{
+  color: white;
+}
+.btn{
+  color: white;
+  border: transparent;
+  background: transparent;
+  
+  
+}
+.btnwallet{
+  color: white;
+  border: transparent;
+  background: transparent;
+}
