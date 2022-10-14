@@ -100,3 +100,15 @@ h1 {
   font-size: 25px;
   line-height: 30px;
 }
+
+.vector {
+  position: absolute;
+  width: 480px;
+  height: 467px;
+  left: 442px;
+  top: -195px;
+
+  background: #AD1AAF;
+  opacity: 0.75;
+  filter: blur(229.167px);
+}
