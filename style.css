@@ -85,7 +85,7 @@ body {
   z-index: 4;
 }
 
-.second-card img {
+.second-card {
   width: 348px;
   height: 464px;
   position: absolute;
@@ -93,15 +93,15 @@ body {
   z-index: 3;
 }
 
-.second-left-card img {
+.second-left-card {
   left: 261px;
 }
 
-.second-right-card img {
+.second-right-card {
   left: 811px;
 }
 
-.third-card img {
+.third-card {
   width: 285px;
   height: 380px;
   position: absolute;
@@ -109,15 +109,15 @@ body {
   z-index: 2;
 }
 
-.third-left-card img {
+.third-left-card {
   left: 100px;
 }
 
-.third-right-card img {
+.third-right-card {
   left: 1035px;
 }
 
-.last-card img {
+.last-card {
   width: 225px;
   height: 300px;
   position: absolute;
@@ -125,10 +125,10 @@ body {
   z-index: 1;
 }
 
-.last-left-card img {
+.last-left-card {
   left: 0px;
 }
 
-.last-right-card img {
+.last-right-card {
   left: 1195px;
 }
