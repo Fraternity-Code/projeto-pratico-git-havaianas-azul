@@ -1,0 +1,145 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: #140C1F;
+    /* Width: auto;
+    Height: auto; */
+}
+.contents p {
+  width: 100%;
+  text-align: center;
+  font-family: 'Lato';
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 30px;
+ 
+  /* identical to box height */
+  
+  text-transform: capitalize;
+  
+  background: linear-gradient(90.13deg, #0E849A 0%, #F81DFB 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.contents {
+    text-align: center;
+    /* width: auto;
+    height: auto; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.8rem;
+    margin-top: 0.8rem;
+
+}
+
+
+
+.contents h2 {
+
+    font-family: 'Oxanium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 6rem;
+    line-height: 7.8rem;
+
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.walletscards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.8rem;
+    margin: 6rem 0;
+    width: 100%;
+}
+
+.wallet1 {
+    
+    width: 16%;
+    height: 20.75rem;
+    padding: 2rem;
+
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+
+    background: linear-gradient(147.75deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%);
+    border-radius: 8px;
+}
+
+.ellipse {
+    
+    margin: 0 1.7rem;
+    border-radius: 50%;
+    height: 12rem;
+    width: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+
+
+
+    background: linear-gradient(147.75deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%);
+
+}
+
+.ellipse img {
+
+    padding: 2.8rem 2.7rem;
+    position: absolute;
+  
+
+
+}
+
+
+.wallet1  p {
+    
+    font-family: 'Oxanium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+
+}
