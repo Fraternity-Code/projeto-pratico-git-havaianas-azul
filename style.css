@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+    --bg-body: hsla(265, 44%, 8%, 1);
+
+}
+
+body {
+    background: var(--bg-body);
+    -webkit-backdrop-filter: blur(10px);
+     backdrop-filter: blur(10px);
+}
+
+header h1 {
+    width: 38.6rem;
+    height: 13rem;
+
+    font-family: 'Oxanium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 6.4rem;
+    line-height: 13rem;
+    margin-left: 50rem;
+    margin-top: 3rem;
+
+
+    color: #F5FBF2;
+
+}
+
+main {
+    margin: 10.5rem 18rem 0 18rem;
+
+}
+
+.slot {
+
+    display: flex;
+
+    align-items: center;
+    flex-direction: column;
+}
+
+.ellipse {
+    width: 10.6rem;
+    height: 10.6rem;
+    background: linear-gradient(147.75deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 50%;
+
+    margin-bottom: 3rem;
+}
+
+
+
+.slot h1 {
+
+    font-family: 'Oxanium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.4rem;
+    line-height: 3rem;
+    /* identical to box height */
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+
+}
+
+.efeito {
+    width: 18rem;
+    height: 18rem;
+    background: #AD1AAF;
+    filter: blur(14rem);
+    position: absolute;
+    opacity: 90%;
+    margin: 0 40rem;
+
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.efect {
+    position: absolute;
+    display: flex;
+    gap: 5rem;
+    /* z-index: -1 var(--bg-body) */
+}
